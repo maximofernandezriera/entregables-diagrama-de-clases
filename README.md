@@ -14,3 +14,13 @@ Un restaurante necesita almacenar información teniendo en cuenta las siguientes
 * La orden se puede pagar en efectivo o con tarjeta de crédito. Si es con tarjeta de crédito se necesita saber el número de tarjeta, el tipo y el nombre de titular; también se calcula el cargo por el uso de la tarjeta.
 
 Crea un diagrama de clases donde se represente esta información, con la cardinalidad entre clases. Incluye, si es necesario, getters, setters ni constructores.
+
+# 2. Biblioteca
+
+Se	desea	modelar	el	funcionamiento	de	una	biblioteca	municipal.
+
+Los	libros	se	organizan	según	la	temática:	libros	infantiles,	narrativa,	ensayo,	poesía,	etc. Cada	temática	se	encuentra	alojada	en	una	planta	de	la	biblioteca.
+
+Además,	 se	 deben	 registrar	 los	 libros	 que	 se	 encuentran	 en	 la	 biblioteca.	Cada librocontará	con	un	identificador,	titulo,	autor, editorial;	por	cada	libro	puede	haber	más	de	un ejemplar	disponible	para	préstamo.
+
+Por	 cada	 préstamo	 deberá	 almacenarse	 el	 ejemplar,	 la	 fecha	 de	 préstamo,	 la	 fecha de	entrega	 estimada	 y	 la	 real.	 El	 préstamo	máximo	 será	 de	 30	 días.	 Los	 lectores	 que no	entreguen	 el	 libro	 a	 tiempo	 tendrán	 penalización. Para	 aplicar esa penalización,	 la	biblioteca	 cuenta	 con	 una	 ficha	 por	 cada	 lector,	 con	 su	 número	 de	 identificación	 o pasaporte,	su	nombre	y	su	dirección	postal.	Para	fomentar	la	lectura,	los	empleados	de	la	biblioteca,	que	poseen	su	propia	identificación	como	tales,	pueden	llevar	libros	a	casa	por	un	plazo	mayor	que	los	usuarios	convencionales.
