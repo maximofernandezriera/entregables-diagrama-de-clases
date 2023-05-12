@@ -13,7 +13,7 @@ Un restaurante necesita almacenar información teniendo en cuenta las siguientes
 * Se debe calcular el total del pago.
 * La orden se puede pagar en efectivo o con tarjeta de crédito. Si es con tarjeta de crédito se necesita saber el número de tarjeta, el tipo y el nombre de titular; también se calcula el cargo por el uso de la tarjeta.
 
-Crea un diagrama de clases donde se represente esta información, con la cardinalidad entre clases. Incluye, si es necesario, getters, setters ni constructores.
+Crea un diagrama de clases donde se represente esta información, con la cardinalidad entre clases. Incluye, si es necesario, getters, setters y/o constructores.
 
 ## 2. Biblioteca
 
